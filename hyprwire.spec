@@ -56,11 +56,11 @@ sed -i 's/-Wpedantic//' CMakeLists.txt
 %{_includedir}/hyprwire/
 %{_libdir}/libhyprwire.so
 %{_libdir}/pkgconfig/hyprwire.pc
+%{_libdir}/pkgconfig/hyprwire-scanner.pc
 
 %files -n hyprwire-scanner
 %{_bindir}/hyprwire-scanner
 %{_libdir}/cmake/hyprwire-scanner/
-%{_libdir}/pkgconfig/hyprwire-scanner.pc
 
 %changelog
 %autochangelog
